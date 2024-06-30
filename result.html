@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .box {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 500px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        p {
+            color: #333;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div>
+            <h1>Prediction Result</h1>
+            <br>
+            <p><strong>Age:</strong> {{ age }}</p>
+            <p><strong>Gender:</strong> {{ gender }}</p>
+            <p><strong>Annual Income:</strong> {{ annual_income }}</p>
+            <p><strong>Number of Purchases:</strong> {{ num_purchases }}</p>
+            <p><strong>Product Category:</strong> {{ product_category }}</p>
+            <p><strong>Time Spent on Website:</strong> {{ time_spent }}</p>
+            <p><strong>Loyalty Program:</strong> {{ loyalty_program }}</p>
+            <p><strong>Discounts Availed:</strong> {{ discounts_availed }}</p>
+            <br>
+            <p><strong>Purchase Status (Likelihood of Purchase):</strong> {{ purchase_status }}</p>
+        </div>
+    </div>
+</body>
+</html>
