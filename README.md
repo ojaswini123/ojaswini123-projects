@@ -1,0 +1,1 @@
+The primary objective was to assist businesses in making informed decisions related to marketing strategies, inventory management, and customer targeting. By leveraging the capabilities of Random Forest, I achieved an impressive accuracy of 93%, showcasing the model's effectiveness in handling large datasets and minimizing overfitting.
